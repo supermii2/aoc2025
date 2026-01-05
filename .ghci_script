@@ -1,0 +1,8 @@
+:load src/Main.hs
+:module + Solutions.Day1.Part2
+:{
+do
+  s <- readFile "inputs/1.txt"
+  putStrLn (Solutions.Day1.Part2.solve s)
+:}
+:quit
